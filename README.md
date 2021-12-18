@@ -21,7 +21,7 @@ second Energy Part in Cataris.
 - F: Ferenia
 - G: Ghavoran
 - H: Hanubia
-- I: Itorash
+- I: Itorash (has no items)
 
 ## Item Types
 
