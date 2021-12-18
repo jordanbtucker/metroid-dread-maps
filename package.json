@@ -1,8 +1,14 @@
 {
   "scripts": {
-    "prepare": "husky install"
+    "lint": "npm run prettier",
+    "prepare": "husky install",
+    "prettier": "prettier --loglevel warn -w ."
   },
   "devDependencies": {
-    "husky": "^7.0.4"
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.5.1"
   }
 }
